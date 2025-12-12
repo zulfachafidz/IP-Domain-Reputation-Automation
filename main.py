@@ -5,10 +5,10 @@ import os
 
 # api
 
-VIRUSTOTAL_API_KEY = "18fd47f38806f9d7abcc6dec2922f881ec6f9589d03af5c3fa895d7b8beb8f55"
-ABUSEIPDB_API_KEY = "b7b7ff5c24aa96c2c667f38ce64d0cf8a6ac38c20814ea0cbccca1997633fa2f5801e70aabf3e77a"
-ALIENVAULT_API_KEY = "03f83bd98fac1b225def6b32fa571aeb81362e5e2e35f38fbe89ef141d79ffeb"
-URLSCAN_API_KEY = "0199e0a9-230a-7732-a9b9-58644b48dc0d"
+VIRUSTOTAL_API_KEY = "#INPUT_YOUR_APIKEY"
+ABUSEIPDB_API_KEY = "#INPUT_YOUR_APIKEY"
+ALIENVAULT_API_KEY = "#INPUT_YOUR_APIKEY"
+URLSCAN_API_KEY = "#INPUT_YOUR_APIKEY"
 
 
 def check_virustotal(target):
@@ -170,4 +170,5 @@ def check_reputation(target):
 if __name__ == "__main__":
     target = input("Enter IP / URL for check : ").strip()
     check_reputation(target)
+
 

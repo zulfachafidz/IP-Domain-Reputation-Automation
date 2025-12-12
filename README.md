@@ -13,7 +13,7 @@ Automation tool for checking IP address and domain reputation using several inte
 
 ### **2. AbuseIPDB**
 - Abuse Confidence Score
-- Total reports, countries, and ISPs
+- Number of reports, countries, and ISPs
 
 ### **3. AlienVault OTX**
 - Pulse detection for threat indicators

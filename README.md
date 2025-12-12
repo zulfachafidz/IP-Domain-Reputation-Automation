@@ -97,6 +97,7 @@ The output will be displayed in JSON format, including:
 
 ## ⚠ Notes
 
+- API keys are **not** included in the repository for security reasons.
 - Use your own API key from each platform.
 - Some APIs have rate limits, so responses may be delayed or fail.
 

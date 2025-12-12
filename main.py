@@ -102,7 +102,7 @@ def check_urlscan(url_to_check):
     scan_data = response.json()
     uuid = scan_data.get("uuid")
 
-    print("[*] Menunggu hasil analisis URLScan (sekitar 15-20 detik)...")
+    print("[*] Waiting for IP or Domain analysis results (approximately 15-20 seconds)...")
     time.sleep(20)
 
     result_url = f"https://urlscan.io/api/v1/result/{uuid}/"
@@ -168,5 +168,6 @@ def check_reputation(target):
 
 
 if __name__ == "__main__":
-    target = input("Masukkan IP / URL: ").strip()
+    target = input("Enter IP / URL for check : ").strip()
     check_reputation(target)
+

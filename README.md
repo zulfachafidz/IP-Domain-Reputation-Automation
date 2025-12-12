@@ -62,8 +62,8 @@ README.md
 Clone the repository:
 
 ```bash
-git clone https://github.com/zulfachafidz/IP-Domain-Reputation-Automation
-cd "IP Domain Reputation Automation"
+git clone https://github.com/zulfachafidz/IP-Domain-Reputation-Automation.git
+cd IP-Domain-Reputation-Automation
 ```
 
 Install dependencies:
